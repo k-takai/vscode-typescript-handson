@@ -81,6 +81,7 @@ export class API {
         const id = parseInt(req.params.id, 10);
 
         // TODO: idのタスクを完了にする
+        this.repository.DoneTask(id);
 
         res.json({})
     };

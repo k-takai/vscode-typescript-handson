@@ -1,0 +1,25 @@
+
+# A. タスクの一覧取得
+GET http://localhost:8080/api/tasks
+
+###
+POST http://localhost:8080/api/tasks HTTP/1.1
+content-type: application/json
+
+
+# B. タスクの追加
+###
+POST http://localhost:8080/api/tasks HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "id":0,
+    "text":"new task"
+}
+
+
+# C. タスクの終了
+###
+POST http://localhost:8080/api/tasks/1/done HTTP/1.1
+Content-Type: application/json
+

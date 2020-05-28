@@ -1,6 +1,6 @@
-import { ITask } from "src/model/task/task";
+import { ITask } from "src-answer/model/task/task";
 import { describe, Suite, it } from "mocha";
-import { Repository } from "src/model/task/repository";
+import { Repository } from "src-answer/model/task/repository";
 import * as assert from "assert";
 
 describe("Task repository", () => {
@@ -46,9 +46,13 @@ describe("Task repository", () => {
         const firstTask = tasks[0];
 
         // TODO: タスクを完了にする
-
+        repo.DoneTask(firstTask.id);
+        
         // TODO: タスクが完了になって、見えなくなっていること
         tasks = repo.ListTasks();
         assert.equal(tasks.length, 1)
+        assert.equal(tasks.find((task: ITask): boolean => {
+            return task.id === firstTask.id;
+        }), undefined);
     });
 });

@@ -10,7 +10,7 @@ export class Repository {
         // 初期タスク
         this.tasks = [
             {
-                id: 3,
+                id: 1,
                 text: "task1",
                 done: false,
             },
@@ -53,7 +53,9 @@ export class Repository {
         this.tasks.forEach((task) => {
 
             // TODO: idが一致するタスクを検索して、タスクのdoneをtureに設定する
-
+                        if (task.id === id) {
+                task.done = true;
+            }
         });
     }
 }
