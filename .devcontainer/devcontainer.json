@@ -17,6 +17,8 @@
     "hbenl.vscode-test-explorer",
     "hbenl.vscode-mocha-test-adapter",
     "redhat.vscode-yaml",
+    "humao.rest-client",
+    "hediet.vscode-drawio"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
