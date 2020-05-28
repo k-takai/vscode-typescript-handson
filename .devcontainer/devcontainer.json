@@ -3,13 +3,12 @@
   "name": "Node.js 12 & TypeScript",
   "dockerFile": "Dockerfile",
   // Set *default* container specific settings.json values on container create.
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
+  //"settings": {
+  //  "terminal.integrated.shell.linux": "/bin/bash"
+  //},
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     "streetsidesoftware.code-spell-checker",
-    "msjsdiag.debugger-for-chrome",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "hbenl.vscode-test-explorer-liveshare",
@@ -24,7 +23,7 @@
     8080
   ],
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install"
+  //"postCreateCommand": "npm install"
   // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
   // "remoteUser": "node"
 }
