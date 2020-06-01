@@ -1,9 +1,9 @@
-# Visual Studio Codespaces / TypeScript 開発体験 ハンズオン
-ハンズオンに最後まで参加していただいた方に、プレゼントがあります！
+# Visual Studio Codespaces / TypeScript 開発体験 ハンズオン :computer:
+ハンズオンに最後まで参加していただいた方に、プレゼント:green_book:があります！
 
 みんなで楽しく助け合いながらゴールをめざしましょう！
 
-## ゴール
+## 本日のゴール
 
 - Type Script の役割を理解し、Visual Studio Codespaces で開発ができるようになること
 - Visual Studio Codespaces で Type Script でサーバアプリケーションをコンパイル、デバッグができること
@@ -42,7 +42,7 @@
   - 事前に、"Start collaboration session..." をクリックし、Microsoft アカウント、Github アカウントとリンクさせておいて下さい
 
 
-## みなさまにご協力いただきたいこと
+## みなさまにご協力いただきたいこと :pray:
 
 - このハンズオンは有志の実験的取り組みです。至らない点など多数あるかと思いますが、参加者同士でコミュニケーションをとっていただき、一緒に解決できればと思います。
 - Live Share を使ってのハンズオンなど、主催者としても初めての取り組みを行っています。ご不便をおかけする点も多いと思いますが、ご協力いただければと思います。
@@ -50,7 +50,7 @@
 - このハンズオンの内容には、書籍[Visual Studio Code 実践ガイド](https://gihyo.jp/book/2020/978-4-297-11201-1)の内容が含まれます。資料は用意するため、購入は必須はありませんが、購入を検討いただければ幸いです。
 
 
-## アジェンダ
+## アジェンダ:musical_keyboard:
 
 ### STEP0. [Codespacesを使ってみよう](docs/0.codespaces.md)
 ### STEP1. [Live Share 機能を使って、環境を公開してみよう](docs/1.liveshare.md)
@@ -59,7 +59,7 @@
 ### STEP4. [Type Script の Vue.js アプリケーションをセットアップしよう](docs/4.frontend.md)
 
 
-## コミュニケーションのとり方
+## コミュニケーションのとり方:calling:
 
 - ハンズオン中は Zoom を繋ぎっぱなしにしてください。不明なところがあれば、サポートします！
 - VSCode Meetup Slack にチャンネルを開設して、筆談が良い場合、
