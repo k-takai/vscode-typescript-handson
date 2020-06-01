@@ -9,7 +9,7 @@
 - Visual Studio Codespaces で Type Script でサーバアプリケーションをコンパイル、デバッグができること
 - Visual Studio Codespaces で Type Script で Web フロントエンドのアプリケーションをコンパイルできること
 
-![vscodespaces](https://visualstudio.microsoft.com/wp-content/uploads/2020/05/create-cs.png)
+![vscodespaces](https://visualstudio.microsoft.com/wp-content/uploads/2020/05/visual-studio-online-hero.png)
 
 ## 解説すること
 
