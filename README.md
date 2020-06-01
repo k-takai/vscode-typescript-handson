@@ -1,4 +1,4 @@
-# Visual Studio Codespaces / TypeScript 開発体験 ハンズオン :computer:
+# Visual Studio Codespaces / TypeScript 開発ハンズオン :computer:
 ハンズオンに最後まで参加していただいた方に、プレゼント:green_book:があります！
 
 みんなで楽しく助け合いながらゴールをめざしましょう！
@@ -34,7 +34,7 @@
 - [Node.js のインストール](https://nodejs.org/ja/)
 
 
-### VSCode で準備が必要なもの
+### ※ VSCode で準備が必要なもの
 
 以下の拡張機能を、事前にインストールして下さい
 
@@ -59,8 +59,7 @@
 ### STEP4. [Type Script の Vue.js アプリケーションをセットアップしよう](docs/4.frontend.md)
 
 
-## コミュニケーションのとり方:calling:
+## コミュニケーションのとり方:iphone:
 
 - ハンズオン中は Zoom を繋ぎっぱなしにしてください。不明なところがあれば、サポートします！
-- VSCode Meetup Slack にチャンネルを開設して、筆談が良い場合、
 - Live Share を活用しましょう！ Live Share で "Start collaboration session..." をクリックすると、クリップボードに Live Share のリンクが作成されます。これを Slack に共有して下さい。Live Share で実際のコードを見ながら聞きに行きます
