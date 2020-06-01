@@ -52,8 +52,8 @@ export class Repository {
 
         this.tasks.forEach((task) => {
 
-            // TODO: idが一致するタスクを検索して、タスクのdoneをtureに設定する
-                        if (task.id === id) {
+            // TODO: idが一致するタスクを検索して、タスクのdoneをtrueに設定する
+            if (task.id === id) {
                 task.done = true;
             }
         });
