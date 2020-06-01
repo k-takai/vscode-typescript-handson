@@ -27,7 +27,7 @@ export async function postTask(task: ITask): Promise<ITask[]> {
  */
 export async function postTaskDone(task: ITask): Promise<void> {
     // TODO: urlを作成する /api/tasks/<id>/done
-    const url = "/api/TODO:";
+    const url = `/api/tasks/${task.id}/done`;
     await fetch(url, {
         method: "POST",
         headers: {
